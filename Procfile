@@ -1,3 +1,3 @@
 release: echo "Release command"
-web: echo "Web command"
+web: npm run start
 worker: echo "Worker command"
