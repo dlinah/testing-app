@@ -1,3 +1,3 @@
-release: echo "Release command From Procfile" && echo "Hello There" && node migration.js
+release: echo "Release command From Procfile"
 web: npm run start
 worker: echo "Worker command"
