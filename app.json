@@ -1,0 +1,13 @@
+{
+  "name": "testing app",
+  "description": "testing app for build.io",
+  "repository": "https://github.com/dlinah/testing-app",
+  "logo": "https://pic.onlinewebfonts.com/svg/img_140098.png",
+
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "FREE"
+    },
+  },
+}
