@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const data = process.env.data || "World";
+const data = process.env.data || "Worlds";
 
 app.get("/", (req, res) => {
     console.log(`Hello ${data}!`)
