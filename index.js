@@ -4,7 +4,7 @@ const port = 3000;
 const data = process.env.data || "World!";
 
 app.get("/", (req, res) => {
-    console.log(`Hello ya ${data}!`)
-    res.send(`Hello ${data}!`);
+    console.log(`Hello ya ${data}! on develop`)
+    res.send(`Hello ${data}! on develop`);
 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
