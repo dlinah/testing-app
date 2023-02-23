@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "npm ci"
+    "postinstall" :"echo $data && echo $ENV_BUCKET_NAME",
+    "build": "echo $data && echo $ENV_BUCKET_NAME && npm ci"
   },
   "author": "",
   "license": "ISC",
