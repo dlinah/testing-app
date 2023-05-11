@@ -5,6 +5,6 @@ const data = process.env.data || "World!";
 
 app.get("/", (req, res) => {
     console.log(`Hello 20 ${data}!`)
-    res.status(301).send(`Hello ${data}!`);
+    res.status(500).send(`Hello ${data}!`);
 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
