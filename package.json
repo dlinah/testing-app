@@ -9,6 +9,9 @@
     "postinstall" :"echo $data && echo $APP_FOLDER",
     "build": "echo $data && echo $APP_FOLDER && npm ci"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
