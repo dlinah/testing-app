@@ -3,7 +3,7 @@ function worker() {
  let s=0
   while (s<1500) {
     if(new Date().getTime() > now+s*1000){
-    console.log(s)
+    console.log("a",s)
       s+=1
     }
   }
